@@ -40,16 +40,18 @@ This repository implements a **SystemVerilog** audio acquisition and digital sig
 Nexys-A7-PDM-Microphone-FIR-Visualizer/
 ├── rtl/
 │   ├── top_mic_vu.sv          
-│   ├── mic_vu_meter.sv         
+│   ├── mic_vu_meter.sv        
 │   ├── fir_filter.sv           
-│   ├── seven_segment_ctrl.sv   
+│   ├── seven_segment_ctrl.sv  
 │   ├── uart_tx.sv              
-│   ├── vga_controller.sv       
-│   ├── mic_display.sv          
-│   └── sync_async.sv           
-├── constraints/                
+│   ├── vga_controller.sv      
+│   ├── mic_display.sv        
+│   └── sync_async.sv       
+├── constraints/               
+├── ip/
+│   └── clk_wiz_0.xci           # Vivado Clocking Wizard IP (100 MHz -> 108 MHz)
 ├── software/
-│   └── mic_uart_python_code.py # Real-time Python serial waveform plotter
+│   └── mic_uart_python_code.py
 └── README.md
 ```
 
