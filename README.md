@@ -47,7 +47,8 @@ Nexys-A7-PDM-Microphone-FIR-Visualizer/
 │   ├── vga_controller.sv      
 │   ├── mic_display.sv        
 │   └── sync_async.sv       
-├── constraints/               
+├── constraints/
+│   ├── top_mic_vu.xdc             
 ├── ip/
 │   └── clk_wiz_0.xci           # Vivado Clocking Wizard IP (100 MHz -> 108 MHz)
 ├── software/
